@@ -17,7 +17,6 @@ class Item extends Component {
             <ItemStyles>
                 {item.image && <img src={item.image} alt={item.title} />}
 
-                {item.image ? <img /> : null}
                 <Title>
                     <Link href={{
                         pathname: '/item',
